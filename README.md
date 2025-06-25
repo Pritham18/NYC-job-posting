@@ -99,10 +99,7 @@ Apply NLP models to analyze job descriptions and classify skill requirements.
 
 Build a job recommendation engine using similarity metrics (Cosine, Jaccard).
 
-📂 Folder Structure (If included)
-bash
-Copy
-Edit
+
 .
 ├── cleaned_data/                  # Final cleaned dataset (CSV)
 ├── notebooks/                    # Python scripts and Jupyter Notebooks
