@@ -2,7 +2,7 @@
 Project Overview
 This repository contains the final research project for AIT 580 (Data Analytics), conducted by Pritham Mahajan. The study focuses on analyzing the New York City Jobs Dataset, sourced from the City of New York’s official open data portal. The aim was to uncover hiring trends, job type distribution, salary insights, and agency-based employment behavior to assist job seekers, city planners, and policymakers in making informed decisions.
 
-🧠 Objective
+Objective
 The primary goal of this project is to explore and answer key research questions about NYC's employment landscape by analyzing online job postings. These questions include:
 
 Which are the top 20 most frequently posted job categories in NYC?
@@ -13,7 +13,7 @@ What is the distribution of full-time and part-time roles across these agencies?
 
 Is there any relationship between the number of positions offered and the salary ranges provided?
 
-📁 Dataset Details
+Dataset Details
 Source: NYC Open Data (Jobs NYC Postings)
 
 Scope: Contains both internal and external job postings
@@ -36,7 +36,7 @@ Posting Dates
 
 Required Skills
 
-🔧 Tools & Technologies
+Tools & Technologies
 Tool	Purpose
 Excel	Initial data cleaning, formatting, identifying irregular entries
 Python (Pandas)	Data wrangling, deduplication, column standardization
@@ -44,7 +44,7 @@ SQL	Storing and querying the cleaned dataset
 R / RStudio (ggplot2)	Visualization and statistical graphics
 Jupyter Notebook	Documenting EDA and automation scripts
 
-🧹 Data Cleaning Summary
+Data Cleaning Summary
 Level Column Fixes: Cleaned improperly labeled levels like "A1", "B1", "M1" into numeric values.
 
 Full-Time/Part-Time: Standardized inconsistent job type entries and filled missing values with "N/A".
@@ -57,7 +57,7 @@ Column Drops: Removed unnecessary fields such as "Unnamed: 20", redundant title 
 
 Work Location: Cleaned location data to show only street-level details without ZIP/state clutter.
 
-📊 Visualizations & Insights
+Visualizations & Insights
 Top 20 Job Categories
 
 Bar chart showing high demand in Social Services, Data & Innovation, and Public Health sectors.
@@ -74,7 +74,7 @@ Salary Range vs. Job Count
 
 Scatter plot showing relationship between number of positions offered and pay range, helping to identify where high-paying or high-volume roles are clustered.
 
-📌 Key Findings
+Key Findings
 Social Services dominates NYC job postings by a large margin.
 
 Agencies like Public Health and Constituent Services follow closely in demand.
@@ -83,14 +83,14 @@ Some agencies post a high number of part-time jobs, which could help flexible jo
 
 There's no direct linear relationship between number of jobs and pay range, indicating a wide variety in job types and compensation strategies.
 
-📉 Limitations
+Limitations
 The dataset may not fully represent private sector job dynamics.
 
 Possible bias due to incomplete or outdated job descriptions.
 
 The study’s scope was limited by time constraints and data complexity.
 
-🚀 Future Work Suggestions
+Future Work Suggestions
 Add interactive dashboards using Tableau or Power BI.
 
 Integrate real-time job feed from NYC’s API to track trends over time.
@@ -109,6 +109,6 @@ Build a job recommendation engine using similarity metrics (Cosine, Jaccard).
 ├── presentation/                 # PowerPoint presentation
 ├── .gitignore                    # Git tracking exclusions
 └── README.md                     # This file
-🙋‍♂️ Author
+Author
 Pritham Mahajan
 Graduate Student – George Mason University
